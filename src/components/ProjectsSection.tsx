@@ -3,60 +3,24 @@ import { Button } from "@/components/ui/button";
 
 const ProjectsSection = () => {
   const projects = [
-    {
-      id: 1,
-      title: "3D Portfolio Website",
-      description: "Interactive portfolio with Three.js and smooth animations",
-      tech: ["React", "Three.js", "Framer Motion"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    },
-    {
-      id: 2,
-      title: "E-commerce Platform",
-      description: "Modern e-commerce solution with real-time features",
-      tech: ["Next.js", "TypeScript", "Stripe"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    },
-    {
-      id: 3,
-      title: "AI Dashboard",
-      description: "Data visualization dashboard with AI-powered insights",
-      tech: ["React", "D3.js", "Python"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    },
-    {
-      id: 4,
-      title: "Mobile Banking App",
-      description: "Secure banking application with biometric authentication",
-      tech: ["React Native", "Node.js", "MongoDB"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    },
-    {
-      id: 5,
-      title: "Social Media Platform",
-      description: "Real-time social platform with video calling features",
-      tech: ["Vue.js", "Socket.io", "WebRTC"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    },
-    {
-      id: 6,
-      title: "NFT Marketplace",
-      description: "Decentralized marketplace for digital assets",
-      tech: ["React", "Web3.js", "Solidity"],
-      image: "/api/placeholder/400/300",
-      link: "#",
-      github: "#"
-    }
+  {
+    id: 1,
+    title: "3D Portfolio Website",
+    description: "Interactive portfolio with Three.js and smooth animations",
+    tech: ["React", "Three.js", "Framer Motion"],
+    image: "https://placehold.co/400x300/1e1b4b/ffffff?text=Project+1",
+    link: "#",
+    github: "#"
+  },
+  {
+    id: 2,
+    title: "E-commerce Platform",
+    description: "Modern e-commerce solution with real-time features",
+    tech: ["Next.js", "TypeScript", "Stripe"],
+    image: "https://placehold.co/400x300/1e1b4b/ffffff?text=Project+2", 
+    link: "#",
+    github: "#"
+  },
   ];
 
   const containerVariants = {
